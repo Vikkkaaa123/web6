@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFCCCC;
+}
+
+form {
+    position: relative;
+    background-color: #FFCCFF;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 2;
+}
+
+.calc-h2 {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+}
+
+.product {
+    margin-top: 30px;
+}
+
+input, select {
+    padding: 14px;
+    border: 1.5px #990066 solid;
+    border-radius: 6px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.myradio {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    column-gap: 20px;
+    font-size: 20px;
+    letter-spacing: 1.1px;
+
+    input[type="radio"] {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.variants {
+    margin: 60px 0;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.mycheck {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    column-gap: 20px;
+    font-size: 20px;
+    letter-spacing: 1.1px;
+
+    input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.output {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    padding: 30px 0;
+    color: #fff;
+    background: #660066;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    border-radius: 20px;
+}
