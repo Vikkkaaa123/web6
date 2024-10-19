@@ -29,6 +29,14 @@ function fetchProducts() {
                 {
                     title: "Шоколад",
                     cost: 90
+                },
+                {
+                    title: "Мармелад",
+                    cost: 57
+                },
+                {
+                    title: "Печенье с предсказаниями",
+                    cost: 200
                 }
             ]
         },
